@@ -8,7 +8,7 @@ import { NgIf } from '@angular/common';
   templateUrl: './zodiaco.component.html',
   imports: [ReactiveFormsModule, NgIf],
 })
-export class ZodiacoComponent {
+export default class ZodiacoComponent {
   zodiacoForm: FormGroup;
   resultado: any;
 
